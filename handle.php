@@ -8,7 +8,10 @@
   if ($userNum == $compNum) {
     echo "TIE";
   }
-  else {
-    echo "YOU WIN!";
+  elseif($userNum < $compNum){
+    echo "YOU LOSE!";
+  }
+  else{
+    echo "You Win!";
   }
 ?>
